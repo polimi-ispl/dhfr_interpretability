@@ -33,3 +33,9 @@ dependencies:
     - pandas
     - jupyter
     - polars
+    - opencv-python
+    - scikit-learn
+    - rasterio
+    - imgaug
+    - keras==2.2.4
+    - imagecorruptions

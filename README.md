@@ -13,7 +13,10 @@
 
 Repository for the dataset and code associated with the paper "Interpretability of Deep High-Frequency Residuals: a Case Study on SAR Splicing Localization".  
 The repository is currently **under development**, so feel free to open an issue if you encounter any problems.
-![](assets/teaser.png)
+<div align="center">
+  <img src="assets/teaser.png" alt="Teaser" />
+</div>
+
 
 ## Description
 

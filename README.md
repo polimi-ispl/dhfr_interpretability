@@ -44,3 +44,6 @@ conda activate dhfr_interpretability
 2. Extract patches and residuals with `extract_dhfrs.py`.
 2. Analyze results using the notebooks in `notebooks/`.
 3. Check the modules in `isplutils/` for customization or extensions.
+
+## Proof Of Concept
+A proof of concept is available in the `notebooks/` directory, demonstrating the interpretability analysis on a sample SAR image showed in the paper.

@@ -47,8 +47,7 @@ def DnCNN(depth=17, filters=64, image_channels=1, use_bnorm=True, model_path=Non
     model = Model(inputs=inpt, outputs=x)
 
     if model_path is not None:
-        final_weights_path = os.path.join(model_path, 'model_weights.h5')
-        model.load_weights(final_weights_path)
-        print('loaded ', final_weights_path)
+        model.load_weights(model_path)
+        print('loaded ', model_path)
 
     return model
